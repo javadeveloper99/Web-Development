@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.ptext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 313px;
+
+  color: white;
+  text-align: center;
+
+}
+
+.hi {
+  width: 336px;
+  height: 84px;
+  top: 53px;
+  left: 313px;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82.38px;
+  color: #ffffff;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.full {
+  width: 814px;
+  height: 84px;
+  top: 146px;
+  left: 313px;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82.38px;
+  color: #ffffff;
+}
+
+.pimg {
+  background-image: url(./first\ page.jpeg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.section_one {
+  height: 279px;
+  background-color: #161619;
+}
+
+.you {
+  font-size: 144px;
+}
+
+.work {
+  position: relative;
+  top: 70px;
+  font-family: "roboto", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+
+}
+
+.sectionone_box {
+  color: #ffffff;
+  text-align: center;
+
+
+}
+
+.section_two {
+  background-color: #ffffff;
+  border-radius: 15px;
+
+
+}
+
+.content {
+
+  height: 450px;
+  width: 1066px;
+  position: relative;
+  left: 187px;
+  display: flex;
+  flex-direction: row;
+  gap: 53px;
+  top: 50px;
+  border-radius: 15px;
+  border: 1px black;
+  margin-bottom: 50px;
+
+
+}
+
+.boxes {
+  height: 390px;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(214, 200, 200);
+  text-align: center;
+  border: 1px black;
+
+
+
+}
+
+.boxes img {
+  width: 320px;
+  height: 150px;
+
+  border-radius: 15px;
+
+}
+
+.section_call {
+  height: 378px;
+}
+
+.section_info {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.contact-me {
+  width: 760px;
+  height: 378px;
+  background-color: #515603;
+  color: #ffffff;
+}
+
+.contact-me h1,
+.about-me h1 {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  height: 75px;
+  left: 129px;
+  top: 40px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 40px;
+}
+
+.about-me {
+  width: 780px;
+  height: 378px;
+  background-color: #722300;
+  color: #ffffff;
+}
+
+.contact-me p,
+.about-me p {
+  text-align: center;
+  padding: 30px 80px;
+  text-align: justify;
+}
+
+.section_last {
+  width: 1540px;
+  height: 138px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.text h1 {
+  padding-top: 50px;
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 22px;
+
+}
+
+.last {
+  font-size: 15px;
+}
