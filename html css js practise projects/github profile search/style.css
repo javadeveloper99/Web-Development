@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Oswald",sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height:50vh;
+}
+.main-container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.main-container h2{
+  padding: 25px;
+}
+.id-input{
+  display: flex;
+  gap: 0;
+}
+.id-input input{
+  width: 600px;
+
+  padding:  3px 5px;
+
+}
+.id-input input:focus-visible{
+  outline:1px solid lightgreen;
+}
+
+.id-input button {
+  border: none;
+  border: 1px solid white;
+  padding: 3px 5px;
+  color: white;
+  background-color: gray;
+  font-weight: 600;
+}
+.id-input button:hover {
+  background-color:rgb(102, 101, 101);
+}
+
+.box-cont{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 500px;
+  gap: 1.4rem;
+  padding-top: 35px;
+  align-items: start;
+  justify-content: ;
+}
+.avatar img{
+  height: 120px;
+  width: 80px;
+  border-radius: 120px;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+.top-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers{
+  display: flex;
+}
+
