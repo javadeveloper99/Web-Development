@@ -1,61 +1,98 @@
- @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family:"Oswald",sans-serif;
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: white;
 }
-.background{
+
+.background {
   background-image: url(./images/mountain.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.text{
-  display: grid;
-  place-items: center;
+.big {
+  font-size: 4rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.text {
   height: 100vh;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.setting{
+
+.setting {
   position: absolute;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    gap: 1rem;
-    margin: 10px 10px;
-}
-.setting .fa-cog{
-
-  color: white;
-  font-size: 2rem;
-
-}
-
-.seting-cont{
+  bottom: 0;
+  right: 0;
   display: flex;
   gap: 1rem;
+  margin: 10px;
 }
 
-.subbut{
+.setting .fa-cog {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.seting-cont {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.subbut {
   background-color: green;
   color: white;
   font-size: 1rem;
- /*  border-radius:white; */
   font-weight: 600;
   padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-#dateofB{
-   padding: 5px 10px;
-   font-size: 1rem;
+#dateofB {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
 }
 
-.hide{
+.hide {
   display: none;
+}
+
+.time-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.time-container h2 {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-container div {
+  font-size: 4rem;
+  font-weight: 700;
 }
