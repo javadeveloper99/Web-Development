@@ -5,25 +5,25 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Oswald",sans-serif;
+
 }
 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  height:50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .main-container{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: end;
+   height: 45vh;
 
 }
 .main-container h2{
   padding: 25px;
+  font-family: "Oswald", sans-serif;
 }
 .id-input{
   display: flex;
@@ -42,28 +42,45 @@ justify-content: center;
 .id-input button {
   border: none;
   border: 1px solid white;
-  padding: 3px 5px;
+  padding:2px 5px;
   color: white;
   background-color: gray;
   font-weight: 600;
 }
+.right button{
+    border: none;
+    border: 1px solid white;
+    padding: 2px 5px;
+    color: white;
+    background-color: gray;
+    font-weight: 600;
+    border-radius: 3px;
+}
 .id-input button:hover {
   background-color:rgb(102, 101, 101);
+}
+.right button:hover {
+  background-color: rgb(102, 101, 101);
 }
 
 .box-cont{
   display: flex;
+  border:none;
   flex-direction: column;
-  height: 50vh;
-  width: 500px;
-  gap: 1.4rem;
+  height: 40vh;
+  width: 330px;
+  gap:0.5rem;
   padding-top: 35px;
-  align-items: start;
-  justify-content: ;
+  border: 1px solid rgba(112, 110, 110, 0.612);
+  box-shadow: 0.5px 0.5px 1px 1px rgba(112, 110, 110, 0.612);
+  margin-top: 50px;
+  position:absolute;
+  left:40%;
+
 }
 .avatar img{
-  height: 120px;
-  width: 80px;
+  height: 110px;
+  width: 110px;
   border-radius: 120px;
 }
 .user{
@@ -72,17 +89,33 @@ justify-content: center;
   align-items: center;
  justify-content: center;
 }
+.about{
+  margin: 0 10px;
+}
+ .user p{
+      color: grey;
+}
 .top-section{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .left{
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 
 .numbers{
   display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
 }
 
+/* @media(width:660px){
+  #id-input input{
+    width: 150px;
+  }
+}
+
+ */
