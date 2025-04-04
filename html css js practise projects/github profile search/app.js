@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 const url = 'https://api.github.com/users/';
 const input = document.querySelector("#input");
@@ -68,3 +69,29 @@ btn.addEventListener("click", fetchProfile);
 input.addEventListener("keypress", (e) => {
     if (e.key === "Enter") fetchProfile();
 });
+=======
+let btn = document.querySelector("#btn");
+let input = document.querySelector("#input");
+let btn2 = document.querySelector("#search");
+
+btn.addEventListener("click", () => {
+  let inputValue=input.value;
+  fetchData(inputValue);
+});
+
+
+async function fetchData(inputValue) {
+  let url = `https://github.com/${inputValue}`;
+
+  try {
+    let get = await fetch(url);
+    let data = await get.json();
+    console.log(data);
+  } catch (error) {
+    console.log("profile not found")
+  }
+
+}
+
+
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333

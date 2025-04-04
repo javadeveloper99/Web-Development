@@ -7,6 +7,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 
 body {
@@ -36,6 +37,28 @@ body {
   padding: 25px;
   color: #333;
 
+=======
+body{
+
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: end;
+   height: 45vh;
+
+}
+.main-container h2{
+  padding: 25px;
+  font-family: "Oswald", sans-serif;
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
 }
 
 .id-input {
@@ -58,17 +81,38 @@ body {
 .id-input button {
   padding: 8px 15px;
   border: none;
+<<<<<<< HEAD
   background-color: #555;
+=======
+  border: 1px solid white;
+  padding:2px 5px;
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
   color: white;
   cursor: pointer;
   border-radius: 3px;
   transition: background-color 0.3s;
 }
+<<<<<<< HEAD
 
+=======
+.right button{
+    border: none;
+    border: 1px solid white;
+    padding: 2px 5px;
+    color: white;
+    background-color: gray;
+    font-weight: 600;
+    border-radius: 3px;
+}
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
 .id-input button:hover {
   background-color: #666;
 }
+.right button:hover {
+  background-color: rgb(102, 101, 101);
+}
 
+<<<<<<< HEAD
 
 .profile-container {
   width: 100%;
@@ -85,6 +129,27 @@ body {
   padding: 20px;
   border-radius: 5px;
   margin-top: 20px;
+=======
+.box-cont{
+  display: flex;
+  border:none;
+  flex-direction: column;
+  height: 40vh;
+  width: 330px;
+  gap:0.5rem;
+  padding-top: 35px;
+  border: 1px solid rgba(112, 110, 110, 0.612);
+  box-shadow: 0.5px 0.5px 1px 1px rgba(112, 110, 110, 0.612);
+  margin-top: 50px;
+  position:absolute;
+  left:40%;
+
+}
+.avatar img{
+  height: 110px;
+  width: 110px;
+  border-radius: 120px;
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
 }
 
 
@@ -94,6 +159,7 @@ body {
   border-radius: 50%;
 
 }
+<<<<<<< HEAD
 
 
 .user {
@@ -132,12 +198,30 @@ body {
 
   margin-bottom: 15px;
 
+=======
+.about{
+  margin: 0 10px;
+}
+ .user p{
+      color: grey;
+}
+.top-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.left{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
 }
 
 
 .numbers {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   font-size: 14px;
   color: #444;
 }
@@ -206,3 +290,15 @@ body {
 
   }
 }
+=======
+  margin: 0 10px;
+}
+
+/* @media(width:660px){
+  #id-input input{
+    width: 150px;
+  }
+}
+
+ */
+>>>>>>> 0e960ea1f311d93a332cf30a01c2a31c309a9333
