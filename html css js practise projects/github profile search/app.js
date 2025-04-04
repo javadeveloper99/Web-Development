@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 const url = 'https://api.github.com/users/';
 const input = document.querySelector("#input");
