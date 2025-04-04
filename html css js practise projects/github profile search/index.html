@@ -2,73 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Profile Search</title>
+    <title>Search Github Profile</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container">
-      <div class="main-container">
-        <h2>Search Github Profile</h2>
-        <div class="id-input">
-
-          <input
-            id="input"
-            type="text"
-            placeholder="Enter Your GitHub Profile"
-          />
-          <button id="btn">Search</button>
-
-              <input id="input" type="text" placeholder="Enter Your GitHub Profile">
-              <button type="btn" id="btn">Search</button>
-        </div>
+      <h1>Search Github Profile</h1>
+      <div class="search">
+        <input
+          type="text"
+          id="searchInput"
+          name="searchInput"
+          placeholder="Enter Your Github Username"
+        />
+        <button class="primary-btn" id="searchBtn">Search</button>
       </div>
-     </div>
-    <div class="box-cont">
-      <div class="top-section">
-        <div class="left">
-          <div class="avatar">
-            <img src="./assets/WhatsApp Image 2024-07-13 at 12.50.49_1e823425.jpg" alt="avtar">
-          </div>
-          <div class="user">
-            <h4>Vivek Sanap</h4>
-            <p>@javadeveloper99</p>
-          </div>
-        </div>
-        <div class="right">
-          <button type="primary-btn" id="search">Profile</button>
-        </div>
-      </div>
-      <div class="about">
-        <h4>Bio</h4>
-        <p>HTML | CSS | JAVASCRIPT | DATA STRUCTURE & ALGORITHEM</p>
-      </div>
-      <div class="numbers">
-        <div class="followers">
-          <h4>followers</h4>
-          <p>10000</p>
-        </div>
-        <div class="following">
-          <h4>following</h4>
-          <p>10000</p>
-        </div>
-        <div class="repos">
-          <h4>Repos</h4>
-          <p>10000</p>
-
-        </div>
-      </div>
-      <div class="profile-container"></div>
-      <div class="loading"></div>
+      <div id="profileContainer"></div>
+      <div id="loading"></div>
     </div>
-
-    <script src="app.js"></script>
+    <script src="./index.js"></script>
   </body>
-
-    <script src="app.js">
-
-    </script>
-</body>
-
 </html>
