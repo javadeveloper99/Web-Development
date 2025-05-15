@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+input {
+  width: 20rem;
+  background-color: rgb(70, 44, 44);
+  border: none;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+input:focus {
+  outline: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+button {
+  font-weight: bold;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+}
+img {
+  width: 230px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transition: transform 0.7s ease;
+}
+
+img:hover{
+  transform: scale(1.1) translateZ(50px);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
